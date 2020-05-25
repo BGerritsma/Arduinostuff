@@ -1,6 +1,6 @@
-# AtMega328 pu,GPS, temperture on oled display
+# AtMega328pu,GPS,temperture on an oled display
 # Bernd
-# mei 2020 
+# may 2020 
 # 
 #include <Wire.h>
 #include <TinyGPS++.h>
@@ -17,7 +17,7 @@
 #endif
 
 
-static const int RXPin = 4, TXPin = 3;    //input van Neo-6M
+static const int RXPin = 4, TXPin = 3;    //input from Neo-6M
 static const uint32_t GPSBaud = 9600;
 static char yearstring[15];
 static float fYear;
